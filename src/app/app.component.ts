@@ -1,6 +1,8 @@
 import {Component} from '@angular/core';
 import {TranslateService} from '@ngx-translate/core';
 import {Meta, Title} from '@angular/platform-browser';
+import { CarenetSync } from 'carenet-sync';
+
 
 import {NavigationEnd, Router} from '@angular/router';
 import {AppConfig} from './config/app.config';
