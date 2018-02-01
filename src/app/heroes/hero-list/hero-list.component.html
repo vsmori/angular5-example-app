@@ -58,6 +58,11 @@
                 {{'teste fitbir' | translate}}
             </button>
 
+            <carenet-sync url="https://us-central1-crnt-fitbit.cloudfunctions.net/fitbit" (processed)="onProcessed($event)"></carenet-sync>
+            <div *ngIf="data && data.length > 0;">
+                {{ data }}
+            </div>
+
             <div *ngIf="error">{{error | translate}}</div>
         </form>
     </div>

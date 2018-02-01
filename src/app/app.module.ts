@@ -1,6 +1,7 @@
 import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
 import {FormsModule} from '@angular/forms';
+import {CarenetSync} from 'carenet-sync';
 
 import {APP_CONFIG, AppConfig} from './config/app.config';
 
@@ -25,6 +26,7 @@ import {SampleModule} from 'angular-example-library';
     BrowserAnimationsModule,
     FormsModule,
     HttpClientModule,
+    CarenetSync,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
