@@ -50,6 +50,7 @@ export class HeroListComponent {
 
   onProcessed(event) {
     this.data = event;
+    console.log("teste teste",event);
   }
 
   like(hero: Hero) {
