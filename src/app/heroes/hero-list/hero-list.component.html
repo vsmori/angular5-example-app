@@ -1,5 +1,6 @@
 <div id="left">
     <carenet-sync baseUrl="https://us-central1-crnt-fitbit.cloudfunctions.net" debug="true" (processed)="onProcessed($event)" integration="fitbit" userName="Nome Teste" userId="1231212"></carenet-sync>
+
     <div *ngIf="data && data.length > 0;">
         {{ data }}
     </div>
