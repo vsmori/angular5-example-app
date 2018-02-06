@@ -1,6 +1,7 @@
 <div id="left">
-    <carenet-sync url="http://192.168.2.8:8080" [iframe]="true" (processed)="onProcessed($event)"></carenet-sync>
-    <!-- https://us-central1-crnt-fitbit.cloudfunctions.net/fitbit -->
+    <carenet-sync url="https://us-central1-crnt-fitbit.cloudfunctions.net" [iframe]="true" debug="true" (processed)="onProcessed($event)"
+        integration="fitbit" userName="Nome Teste" userId="1231212"></carenet-sync>
+
     <div *ngIf="data && data.length > 0;">
         {{ data }}
     </div>
