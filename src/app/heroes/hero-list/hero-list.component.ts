@@ -49,6 +49,7 @@ export class HeroListComponent {
   }
 
   onProcessed(event) {
+    console.log(event);
     this.data = event;
   }
 
