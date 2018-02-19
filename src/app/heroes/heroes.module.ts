@@ -12,7 +12,7 @@ import {
 import { HeroService } from './shared/hero.service';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { HeroesComponent } from './heroes.component';
-import {CarenetSync} from "carenet-sync/public_api";
+import {CarenetSync} from 'carenet-sync/public_api';
 
 @NgModule({
     imports: [
