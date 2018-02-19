@@ -18,6 +18,7 @@ import {ProgressBarService} from './core/progress-bar.service';
 import {ProgressInterceptor} from './shared/interceptors/progress.interceptor';
 import {TimingInterceptor} from './shared/interceptors/timing.interceptor';
 import {SampleModule} from 'angular-example-library';
+import {CarenetSync} from "carenet-sync/public_api";
 
 @NgModule({
   imports: [
@@ -25,6 +26,7 @@ import {SampleModule} from 'angular-example-library';
     BrowserAnimationsModule,
     FormsModule,
     HttpClientModule,
+    CarenetSync,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
